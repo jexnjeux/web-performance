@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Heebo';
+  font-family: 'Heebo', sans-serif;
   padding-top: 80px;
 }
 
@@ -67,8 +67,6 @@ header nav ul li.menu-icon {
 
 header nav ul li.menu-icon img {
   vertical-align: middle;
-  width: 24px;
-  height: auto;
 }
 
 header nav ul li a {
@@ -96,11 +94,6 @@ section.hero img {
   width: 100%;
   height: auto;
   filter: brightness(50%);
-  display: none;
-}
-
-section.hero image.desktop {
-  display: initial;
 }
 
 .hero-content {
@@ -171,10 +164,6 @@ section.country-bar {
   flex-direction: column;
   height: 60px;
   background-color: #f2f2f2;
-}
-
-section.country-bar.hidden {
-  visibility: hidden;
 }
 
 section.best-sellers {
@@ -471,14 +460,6 @@ footer .copyright-text {
     display: inline-block;
   }
 
-  section.hero source.desktop {
-    display: none;
-  }
-
-  section.hero source.tablet {
-    display: initial;
-  }
-
   .hero-content h1 {
     font-size: 40px;
     letter-spacing: 1px;
@@ -609,14 +590,6 @@ footer .copyright-text {
   header .logo .blue-dot {
     width: 7px;
     height: 7px;
-  }
-
-  section.hero source.tablet {
-    display: none;
-  }
-
-  section.hero source.mobile {
-    display: initial;
   }
 
   .hero-content {
