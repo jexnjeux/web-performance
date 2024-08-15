@@ -92,14 +92,14 @@ section.hero {
   overflow: hidden;
 }
 
-section.hero img {
+section.hero source {
   width: 100%;
   height: auto;
   filter: brightness(50%);
   display: none;
 }
 
-section.hero img.desktop {
+section.hero source.desktop {
   display: initial;
 }
 
@@ -471,11 +471,11 @@ footer .copyright-text {
     display: inline-block;
   }
 
-  section.hero img.desktop {
+  section.hero source.desktop {
     display: none;
   }
 
-  section.hero img.tablet {
+  section.hero source.tablet {
     display: initial;
   }
 
@@ -611,7 +611,7 @@ footer .copyright-text {
     height: 7px;
   }
 
-  section.hero img.tablet {
+  section.hero source.tablet {
     display: none;
   }
 

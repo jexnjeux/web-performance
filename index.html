@@ -83,8 +83,8 @@
 
     <section class="hero">
       <picture>
-        <source src="images/Hero_Mobile.webp" media="(max-width: 576px)" />
-        <source src="images/Hero_Tablet.webp" media="(max-width: 960px)" />
+        <source srcset="images/Hero_Mobile.webp" media="(max-width: 576px)" />
+        <source srcset="images/Hero_Tablet.webp" media="(max-width: 960px)" />
         <img src="images/Hero_Desktop.webp" loading="lazy" />
       </picture>
 
@@ -109,7 +109,13 @@
         <div class="container">
           <div class="product new">
             <div class="product-picture">
-              <img src="images/vr1.webp" alt="product: Penom Case" />
+              <img
+                src="images/vr1.webp"
+                sizes="108px"
+                width="108px"
+                height="108px"
+                alt="product: Penom Case"
+              />
             </div>
             <div class="product-info">
               <h5 class="categories">Headsets, Apple</h5>
@@ -125,6 +131,9 @@
             <div class="product-picture">
               <img
                 src="images/vr2.webp"
+                sizes="108px"
+                width="108px"
+                height="108px"
                 alt="product: Noise Cancelling Headphone"
               />
             </div>
@@ -142,12 +151,15 @@
             <div class="product-picture">
               <img
                 src="images/vr3.webp"
+                sizes="108px"
+                width="108px"
+                height="108px"
                 alt="product: Canon Digital SLR EOS Rebel T6"
               />
             </div>
             <div class="product-info">
-              <h5 class="categories">Headsets, Oculus</h5>
-              <h4 class="title">Oculus Headset</h4>
+              <p class="categories">Headsets, Oculus</p>
+              <h3 class="title">Oculus Headset</h3>
               <h3 class="price">
                 <span class="discounted-price">US$ 349.99</span>
                 <span class="original-price">US$ 419.99</span>
